@@ -37,13 +37,30 @@ a {
 .content {
   display: flex;
   margin-top: 100px;
+  max-height: 320px;
+  gap: 35px;
 }
 
 .main-text {
   font-size: 48px;
   font-weight: bold;
+  margin: 0;
 }
 
 .secondary-text{
   color: #e5e7eb;
+}
+
+img {
+  max-height: 100%;
+  max-width: auto;
+}
+
+.sign-up {
+  color: white;
+  background-color: #3882f6;
+  border: none;
+  padding: 5px 20px;
+  border-radius: 5px;
+  cursor: pointer;  
 }
