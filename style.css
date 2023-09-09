@@ -14,7 +14,7 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: center;  
 }
 
 .header-logo {
@@ -39,6 +39,7 @@ a {
   margin-top: 100px;
   max-height: 320px;
   gap: 35px;
+  flex: 1;
 }
 
 .main-text {
@@ -63,4 +64,24 @@ img {
   padding: 5px 20px;
   border-radius: 5px;
   cursor: pointer;  
+}
+
+.second {
+
+}
+
+.second-section-info {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.content-info {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  margin: 40px 0 80px 0;
+}
+
+.square-img {
+  width: 300px;
 }
