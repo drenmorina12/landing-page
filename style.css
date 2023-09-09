@@ -85,3 +85,22 @@ img {
 .square-img {
   width: 300px;
 }
+
+.third {
+  background-color: #e5e7eb;
+  text-align: right;
+  padding: 80px 160px 60px;
+}
+
+.quote {
+  font-size: 30px;
+  font-style: italic;
+  color: #1F2937;
+  text-align: justify;
+}
+
+.author {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0;
+}
