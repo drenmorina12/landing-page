@@ -66,10 +66,6 @@ img {
   cursor: pointer;  
 }
 
-.second {
-
-}
-
 .second-section-info {
   text-align: center;
   margin-top: 40px;
@@ -80,10 +76,11 @@ img {
   gap: 100px;
   justify-content: center;
   margin: 40px 0 80px 0;
+  flex-wrap: wrap;
 }
 
 .square-img {
-  width: 300px;
+  max-width: 250px;
 }
 
 .third {
@@ -148,3 +145,9 @@ img {
   opacity: 0.35;
 }
 
+.footer {
+  background-color: #1F2937;
+  color: #F9FAF8;
+  text-align: center;
+  padding: 18px;
+}
