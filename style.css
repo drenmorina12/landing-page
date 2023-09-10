@@ -104,3 +104,47 @@ img {
   font-size: 20px;
   margin: 0;
 }
+
+.sign-up-section {
+  background-color: #3882f6;
+  color: white;
+  margin: 70px 140px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0px;
+  border-radius: 5px;
+} 
+
+.sign-title {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 5px;
+}
+
+.sign-description {
+  font-size: 18px;
+  margin: 5px;
+}
+
+.sign-button{
+  background-color: #3882f6;
+  color: white;
+  border-style: solid;
+  border-color: white;
+  border-width: 1px;
+  padding: 8.5px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 
+    opacity 0.15s;
+}
+
+.sign-button:hover {
+  opacity: 0.6;
+}
+
+.sign-button:active {
+  opacity: 0.35;
+}
+
